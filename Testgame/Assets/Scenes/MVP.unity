@@ -129,6 +129,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5001}
+  - component: {fileID: 5002}
   m_Layer: 0
   m_Name: GameRoot
   m_TagString: Untagged
@@ -149,6 +150,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 5000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3328567f53f4a62a92158fbbf1479f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 8
+  height: 8
+  tileSize: 1
+  tilePrefab: {fileID: 100000, guid: f9ce4f1f3d454b18a8a2e4f5f5654b48, type: 3}
+  piecePrefab: {fileID: 100000, guid: 2defdc7ea0d74e7ca318f6f1f8db9c81, type: 3}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
